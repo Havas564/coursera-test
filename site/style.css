@@ -1,0 +1,107 @@
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background-color: grey;
+	}
+
+	#box {
+		background-color: maroon;
+		padding: 5px;
+		border: 3px solid black;
+	}
+	#margin_outer {
+		background-color: #90EE90;
+		background-image: url("sky.jpg");
+		background-repeat: no-repeat;
+		background-position: top right;
+		padding: 10px;
+		border: 3px solid black;
+	}
+
+	h1 {
+		color: green;
+		font-size: 36px;
+		text-align: center;
+	}
+	#list_data{
+		color: blue;
+		font-weight: bold;
+		font-size: 16px;
+		opacity: .6;
+	}
+	#links{
+		list-style: none;
+	}
+
+	#blizz:link, #blizz:visited {
+		color: blue;
+		font-weight: bold;
+	}
+	a:link, a:visited {
+		text-decoration: none;
+		background-color: green;
+		border: 1px solid blue;
+		color: black;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 1px;
+	}
+	
+
+	a:hover, a:active {
+		background-color: red;
+		color: purple;
+	}
+
+	#blizz:hover, #blizz:active {
+		color: red;
+	}
+
+	#links li:nth-child(2){
+		font-size: 24px;
+	}
+
+	#list_data li:nth-child(3){
+		color: red;
+	}
+
+	.text_style {
+		font-family: Arial, Helvetica, sans-serif;
+		color: #0000ff;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 24px;
+
+	}
+	#div1 {
+		background-color: #00FFFF;
+	}
+	#p1 {
+		background-color: #A52A2A;
+
+	}
+	#p2 {
+		background-color: #DEB887;
+	}
+	#p3 {
+		background-color: #5F9EA0;
+		clear: left;
+	}
+	#p4 {
+		background-color: #FF7F50;
+	}
+
+	#p1, #p2, #p3, #p4 {
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+		float: left;
+		margin: 10px;
+	}
+
+	section {
+		clear: left;
+	}
